@@ -82,7 +82,9 @@ body {
 
     .convertors-el {
         padding: 10px;
-        width: 70%;
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 
     h2 {
