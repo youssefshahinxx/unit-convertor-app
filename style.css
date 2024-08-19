@@ -63,7 +63,7 @@ body {
 }
 
 /* Media Query for iPhone 11 Pro */
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     #main {
         padding: 20px 10px 40px 10px;
         font-size: 12px;
@@ -82,7 +82,7 @@ body {
 
     .convertors-el {
         padding: 10px;
-        width: 100%;
+        width: 50%;
     }
 
     h2 {
