@@ -21,10 +21,10 @@ body {
 #input-el {
     margin-top: 10px;
     width: 100%;
-    max-width: 90px; /* Ensures the input doesn't become too large on wider screens */
-    height: 77px;
+    max-width: 80px; /* Adjusted for iPhone 11 Pro */
+    height: 70px; /* Slightly reduced for iPhone 11 Pro */
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: poppins, sans-serif;
     border: 2px solid white;
     border-radius: 4px;
@@ -34,11 +34,11 @@ body {
 
 #convert-btn {
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 8px 16px; /* Adjusted for iPhone 11 Pro */
     border: none;
     background-color: white;
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -54,42 +54,42 @@ body {
 .convertors-el {
     background-color: #a690ff;
     margin: 20px 0;
-    padding: 20px;
+    padding: 15px; /* Slightly reduced for iPhone 11 Pro */
     font-family: inter, sans-serif;
     border-radius: 10px;
-    width: 90%;
-    max-width: 400px; /* Limits the width on larger screens */
+    width: 100%;
+    max-width: 375px; /* Matches the viewport width of the iPhone 11 Pro */
     color: rgb(38, 37, 107);
 }
 
-/* Responsive Styles */
-@media (max-width: 768px) {
+/* Media Query for iPhone 11 Pro */
+@media (max-width: 375px) {
     #main {
         padding: 20px 10px 40px 10px;
         font-size: 12px;
     }
 
     #input-el {
-        width: 80px; /* Slightly reduce the input size on smaller screens */
-        height: 70px;
-        font-size: 2.5rem;
+        width: 70px; /* Further adjust input size for smaller screens */
+        height: 65px;
+        font-size: 2.2rem;
     }
 
     #convert-btn {
-        padding: 8px 16px;
-        font-size: 0.9rem;
+        padding: 6px 12px; /* Adjust button size for smaller screens */
+        font-size: 0.85rem;
     }
 
     .convertors-el {
-        padding: 15px;
+        padding: 10px;
         width: 100%;
     }
 
     h2 {
-        font-size: 1rem; /* Adjusts the size of headings on smaller screens */
+        font-size: 0.95rem; /* Adjust heading size for smaller screens */
     }
 
     p {
-        font-size: 0.9rem; /* Adjusts the paragraph text size on smaller screens */
+        font-size: 0.85rem; /* Adjust paragraph text size for smaller screens */
     }
 }
